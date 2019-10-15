@@ -1,0 +1,31 @@
+site_name: Docs Pessoais
+repo_name: 'wgalleti/me'
+repo_url: 'https://wgalleti.github.io/me'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/wgalleti'
+    - type: 'twitter'
+      link: 'https://twitter.com/wgalleti'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/wgalleti'
+
+theme:
+  name: 'material'
+  language: 'pt'
+  palette:
+    primary: 'red'
+    accent: 'indigo'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  feature:
+    tabs: true
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+
